@@ -1,0 +1,68 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Cmake
+build/*
+!build/runCmake.bat
+
+# vim
+*.swp
+*.*~
+
+# visual studio
+*.sdf
+*.suo
+*.opensdf
+*.vcxproj.user
+ipch
+
+# compiled result
+*.exe
+haruna/Debug/*
+haruna/Release/*
+Debug/*
+Release/*
+
+# glm
+glm/test/*
+glm/doc/*
+glm/util/*
+glm/CMakeLists.txt
+glm/CTestConfig.cmake
+
+# glfw
+glfw/docs
+glfw/lib-mingw
+glfw/lib-msvc90
+glfw/lib-msvc100
+
+# glew
+glew/doc
+
+# soil
+soil/lib
+soil/support
+soil/*.dds
+soil/*.bmp
+soil/*.png
+soil/*.tga
+soil/*.jpg
+soil/projects/codeblocks
+soil/projects/makefile
+soil/projects/VC6
+soil/projects/VC7.1
+soil/projects/VC8
+
+# unittest
+testdata/*.tmp

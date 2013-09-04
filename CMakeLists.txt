@@ -1,7 +1,7 @@
 project(SOIL C)
 cmake_minimum_required(VERSION 2.8)
 
-add_definitions(-O2 -Wall)
+add_definitions(-Wall)
 
 add_library(SOIL
     src/image_helper.c
